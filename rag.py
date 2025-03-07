@@ -44,7 +44,7 @@ def query_chromadb(prompt:str) -> str:
         messages=[
             {
                 "role": "user",
-                "content": f"Using this context: {results["documents"]}, please provide me with the latest fashion trends so I can make the most fancy apparel. Please Keep your answer quite short. Please try to use markdown in your reply.",
+                "content": f"I want to make the best {prompt} possible and you are an expert in fashion, design, marketing and communication. Using this context: {results["documents"]}, please give me advices/guidelines on what materials, colors or trends I should follow to make the fanciest and as marketable as possible apparel. Try to make your anwser quite short so i'm not bloated with informations.",
             }
         ],
         model="gpt-4",

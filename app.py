@@ -12,7 +12,8 @@ if form_submit_btn:
         response = requests.post(url="http://127.0.0.1:8000/ask_llm/", json={"prompt": prompt})
 
         if response.status_code == 200:
+            st.balloons()
             st.markdown(response.json())
     except:
-        print("error")
+        st.write("Error when querying the API")
     
