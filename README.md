@@ -1,2 +1,2 @@
 # supreme-octo-couscous
-LLM + RAG. Fashion and Lifestyle
+Fashion and Lifestyle advisor RAG + LLM
